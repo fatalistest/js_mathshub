@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightgray;
+    height: 50px;
+}
+
+nav {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.about_me {
+    display: flex;
+    justify-content: start;
+}
+
+.about_me img {
+    width: 300px;
+    margin: 10px;
+}
+
+.span_header {
+    font-weight: 700;
+    margin: 10px;
+}
+
+.span_content {
+    font-size: 20px;
+}
+
+.num-game {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
